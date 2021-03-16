@@ -1,0 +1,34 @@
+Package: pipeline
+Type: Package
+Title: R-Pipeline for data analysis
+Depends:
+    R (>= 3.2),
+    htmlTable,
+    R6,
+    grid,
+    gridExtra,
+    RGraphics,
+    data.table,
+    ggplot2,
+    psych,
+    plyr,
+    Hmisc,
+    PerformanceAnalytics,
+    sensR,
+    lmtest,
+    mlogit,
+    FactoMineR,
+    missMDA,
+    WriteXLS,
+    gridExtra,
+    lubridate,
+    gtools
+Date: 2021-03-1
+Version: 1.0
+Authors@R: c(person("Mayckon", "Giovani", role = c("aut", "cre"), email = "mayckonrlyeh at gmail.com"),
+Author: Mayckon Giovani [aut, cre]
+Maintainer: Mayckon Giovani <mayckonrlyeh@gmail.com>
+Description: Data analysis workflow and data-analysis tools for the R language
+License: MIT
+LazyData: TRUE
+RoxygenNote: 6.0.1
